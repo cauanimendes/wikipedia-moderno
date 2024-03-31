@@ -1,0 +1,153 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .main {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imagem-perfil img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .informacoes-perfil {
+    font-size: 18px;
+  }
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #ffffffc2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  /* Estilos da seção de biografia */
+  .biografia {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .biografia h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .biografia p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555555;
+  }
+  
+  .biografia strong {
+    font-weight: bold;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  /* Estilos específicos para dispositivos móveis */
+  @media (max-width: 768px) {
+    .logo h1 {
+      font-size: 20px;
+    }
+  
+    nav {
+      display: none;
+    }
+  }
+  .obras {
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .obras h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .obras ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .obras li {
+    margin-bottom: 10px;
+  }
+  
+  .obras a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .obras a:hover {
+    color: #ff6b6b;
+  }
